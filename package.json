@@ -43,7 +43,7 @@
     },
     "dependencies": {
         "flairjs": "^0.59.0",
-        "flairjs-fabric": "^0.59.0",
+        "flairjs-fabric": "^0.59.1",
         "requirejs": "^2.3.6",
         "vue": "^2.6.10"
     }
