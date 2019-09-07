@@ -14,7 +14,6 @@
                         "app",
                         "features"
                     ],
-                    "plugins": ["copy_files", "web_modules", "minify_files", "write_flags"],
                     "copy": [
                         "assets",
                         "favicon.png",
