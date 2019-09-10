@@ -1,5 +1,5 @@
 const { VueView } = await ns('flair.ui');
-const ClientDateTime = await include('myapp.feature1.services.ClientDateTime');
+const ClientDateTime = await include('myapp.services.ClientDateTime');
 
 /**
  * @name HomeView
@@ -8,13 +8,11 @@ const ClientDateTime = await include('myapp.feature1.services.ClientDateTime');
 Class('', VueView, function() {
     this.i18n = 'titles, strings';
     this.title = '@titles.home | Home';
-    this.layout = 'myapp.shared.views.CommonLayout';
-    this.html = true;
-    this.style = true;
-    this.data = true;
+    this.html = './views/home.html';
 
     $$('override');
-    this.loadData = async (base, ctx, el) => { // eslint-disable-line no-unused-vars
+    this.loadData = async (base, ctx) => { // eslint-disable-line no-unused-vars
+        base(ctx);
         this.data.now = await ClientDateTime.now();
     };
 });

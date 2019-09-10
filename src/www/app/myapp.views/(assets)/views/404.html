@@ -1,18 +1,5 @@
-const { VueView } = await ns('flair.ui');
-
-/**
- * @name Error404View
- * @description Default Error View
- */
-Class('', VueView, function() {
-    this.i18n = 'titles, strings';
-    this.title = "@titles.notfound | Not Found";
-    this.layout = "myapp.shared.views.CommonLayout";
-    this.data = {
-      page: ''
-  };
-
-    this.html = `
+<!DOCTYPE html>
+<html>
     <div class="center">
         <div class="card">
             <p></p>
@@ -21,8 +8,8 @@ Class('', VueView, function() {
             <h4>{{ page }}</h4>
         </div>
     </div>
-    `;
-    this.style = `
+</html>
+<style>
     #SCOPE_ID .center {
         position: absolute;
         top: 50%;
@@ -73,11 +60,10 @@ Class('', VueView, function() {
         -webkit-transform: translate(-50%, -50%);  
         text-align: center;
         font-size: 1.2rem;
-      }
-    `;
-
-    $$('override');
-    this.beforeLoad = async (base, ctx, el) => { // eslint-disable-line no-unused-vars
-        this.data.page = ctx.$path;
-    };
-});
+    }
+</style>
+<data>
+    {
+        page: ''
+    }    
+</data>

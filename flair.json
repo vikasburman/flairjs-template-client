@@ -11,8 +11,7 @@
                     "dest": "/",
                     "omitRoot": true,
                     "build": [
-                        "app",
-                        "features"
+                        "app"
                     ],
                     "copy": [
                         "assets",

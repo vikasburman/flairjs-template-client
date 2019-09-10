@@ -47,7 +47,9 @@
 
     "flair.client": {
         "view": {
-            "transition": "",
+            "layout": {
+                "client": "./assets/layouts/default.html"
+            },
             "routes": {
                 "home": "myapp.feature1.views.home",
                 "notfound": "myapp.feature1.views.notfound"
