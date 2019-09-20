@@ -6,7 +6,6 @@ const { VueComponent } = await ns('flair.ui');
  */
 Class('', VueComponent, function() {
     this.i18n = 'strings';
-    this.html = './components/footer.html';
 
     $$('override');
     this.loadData = async (base, ctx) => {

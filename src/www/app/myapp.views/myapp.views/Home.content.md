@@ -2,10 +2,7 @@
 <html>
     <head>
         <title>{{ i18n('@titles.home | Home') }}</title>
-        <style src="./styles/common.css"></style>
-        <data>
-            { "now": "loading..." }
-        </data>
+        <style src="./css/common.css"></style>
     </head>
     <body>
         <div class="center">
