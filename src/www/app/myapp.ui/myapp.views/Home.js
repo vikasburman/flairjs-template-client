@@ -1,5 +1,5 @@
 const { VueView } = await ns('flair.ui');
-const ClientDateTime = await include('myapp.services.ClientDateTime');
+const DateTimeService = await include('myapp.services.DateTimeService');
 
 /**
  * @name HomeView
@@ -10,6 +10,6 @@ Class('', VueView, function() {
     this.preloadData = async (base, ctx) => { // eslint-disable-line no-unused-vars
         base(ctx);
         
-        this.data.now = await ClientDateTime.now();
+        this.data.now = await DateTimeService.now();
     };
 });
