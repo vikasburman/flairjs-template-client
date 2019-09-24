@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>{{ i18n('@titles.home | Home') }}</title>
-        <style src="./css/common.css"></style>
-    </head>
+<html title="@titles.home | Home">
+    <style src="./css/common{.min}.css"></style>
+    <data>
+        { "now": "loading..." }
+    </data>
     <body>
-        <div class="center">
+        <div v-cloak class="center">
             <div class="card">  
-                <img class="center-img" width="50" height="50" src="./assets/images/logo.png"/>
+                <img class="center-img" width="50" height="50" src="~/assets/images/logo.png"/>
                 <p></p>
                 <h1>{{ i18n('@strings.hello | Hello World!') }}</h1>
                 <h4>Current Client Time</h4>

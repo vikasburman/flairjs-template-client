@@ -7,8 +7,9 @@ const ClientDateTime = await include('myapp.services.ClientDateTime');
  */
 Class('', VueView, function() {
     $$('override');
-    this.loadData = async (base, ctx) => { // eslint-disable-line no-unused-vars
+    this.preloadData = async (base, ctx) => { // eslint-disable-line no-unused-vars
         base(ctx);
+        
         this.data.now = await ClientDateTime.now();
     };
 });

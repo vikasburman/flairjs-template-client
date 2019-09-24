@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        .footer.bottom {
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+            font-size: 0.9em;  
+        }        
+    </style>
     <body>
-        <footer class="footer bottom">
+        <footer v-cloak class="footer bottom">
             <div class="container">
                 <span class="text-muted">{{ stuff(i18n('@strings.poweredBy | powered by %1, %2'), poweredBy1, poweredBy2) }}</span>
             </div>
