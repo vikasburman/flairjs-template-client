@@ -80,12 +80,7 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.6.0.tgz#3e05d0647432a8326cb28d0de03895ae5a57f39b"
-  integrity sha512-+o2q111WEx4srBs7L9eJmcwi655eD8sXniLqMB93TBK9GrNzGrxDWSjiqz2hLU0Ha8MTXFIP0yd9fNdP+m43ZQ==
-
-"@babel/parser@^7.6.2":
+"@babel/parser@^7.6.0", "@babel/parser@^7.6.2":
   version "7.6.2"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.6.2.tgz#205e9c95e16ba3b8b96090677a67c9d6075b70a1"
   integrity sha512-mdFqWrSPCmikBoaBYMuBulzTIKuXVPtEISFbRRVNwMWpCms/hmE2kRq0bblUHaNRKrjRlmVbx1sDHmjmRgD2Xg==
@@ -551,9 +546,9 @@ camelcase@^4.1.0:
   integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
 caniuse-lite@^1.0.30000980, caniuse-lite@^1.0.30000989:
-  version "1.0.30000989"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000989.tgz#b9193e293ccf7e4426c5245134b8f2a56c0ac4b9"
-  integrity sha512-vrMcvSuMz16YY6GSVZ0dWDTJP8jqk3iFQ/Aq5iqblPwxSVVZI+zxDyTX0VPqtQsDnfdrBDcsmhgTEOh5R8Lbpw==
+  version "1.0.30000997"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000997.tgz#ba44a606804f8680894b7042612c2c7f65685b7e"
+  integrity sha512-BQLFPIdj2ntgBNWp9Q64LGUIEmvhKkzzHhUHR3CD5A9Lb7ZKF20/+sgadhFap69lk5XmK1fTUleDclaRFvgVUA==
 
 caw@^2.0.1:
   version "2.0.1"
@@ -1023,9 +1018,9 @@ ecstatic@^3.0.0:
     url-join "^2.0.5"
 
 electron-to-chromium@^1.3.247:
-  version "1.3.264"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.264.tgz#ed837f44524d0601a7b2b7b6efd86e35753d0e27"
-  integrity sha512-z8E7WkrrquCuGYv+kKyybuZIbdms+4PeHp7Zm2uIgEhAigP0bOwqXILItwj0YO73o+QyHY/7XtEfP5DsHOWQgQ==
+  version "1.3.265"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.265.tgz#d69afa05a33e551b913a9798f072a6442f46b348"
+  integrity sha512-ypHt5Nv1Abr27QvJqk3VC4YDNqsrrWYMCmpmR7BNfCpcgYEwmCDoi3uJpp6kvj/MIjpScQoZMCQzLqfMQGmOsg==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -1402,18 +1397,18 @@ flairjs-cli@^0.62.2:
     stylelint "^10.1.0"
     uglify-es "^3.3.9"
 
-flairjs-fabric@^0.60.0:
-  version "0.60.0"
-  resolved "https://registry.yarnpkg.com/flairjs-fabric/-/flairjs-fabric-0.60.0.tgz#87fd82a6e140aa644c823362c3f2a03afe6af3e7"
-  integrity sha512-94iNDCaEwi/hBofpVQdiesujgGKdvexPmGncEHK5XR1PPI2IyyEVtSfaKIKSPWRU41K2OVTe1sBSC4LQtQYJMg==
+flairjs-fabric@^0.60.8:
+  version "0.60.8"
+  resolved "https://registry.yarnpkg.com/flairjs-fabric/-/flairjs-fabric-0.60.8.tgz#9c227cfc3e7cb4707ef13d151d0e35ccba1de10e"
+  integrity sha512-AUuEbujlI0++5k+24PlCywnh3X5PsKn5R8wWls8P3mz5Y7Sa/oBfJ4Gyou6NRYQo75nPpuAresezBHpwHB1G1A==
   dependencies:
     node-env-file "^0.1.8"
     node-fetch "^2.6.0"
 
-flairjs@^0.59.62:
-  version "0.59.62"
-  resolved "https://registry.yarnpkg.com/flairjs/-/flairjs-0.59.62.tgz#088b051c3fed85e4e1a11cd3a9113b9033e62c95"
-  integrity sha512-mxAi1Mo2MlyUZPICyU8Xc5+sJHjMgFWMuTCm0FUMFmt8eXoUV3xsr5+H4eVvfbKE34EFgWGO99qNqMzmKPLxGA==
+flairjs@^0.59.66:
+  version "0.59.66"
+  resolved "https://registry.yarnpkg.com/flairjs/-/flairjs-0.59.66.tgz#bbb7b0ce63545654f9ca7f954b57442014f48205"
+  integrity sha512-1JFNo2ly5jjaBTPC11/rAKtrRCJxNx/eGIKFpRjomp82BWqAiqVr9Yg6+HeMAJwuW6QTdzGfT0YO0cud3ZXU2g==
 
 flat-cache@^2.0.1:
   version "2.0.1"
