@@ -1,10 +1,4 @@
 {
-    "global": {
-    },
-
-    "flair": {
-    },
-
     "flair.app": {
         "app": "myapp.main.App",
 
@@ -16,31 +10,8 @@
                 { "rel": "stylesheet", "href": "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" },
                 { "rel": "stylesheet", "href": "./assets/css/styles.css" }
             ],            
-            "scripts": [
-            ],
             "preambles": [
                 "./app"
-            ],
-            "ports": {
-            },       
-            "bootwares": [
-                "flair.boot.DIContainer",
-                "flair.boot.VueSetup",
-                "flair.boot.ClientRouter"
-            ],
-            "assemblies": [
-            ]
-        },
-
-        "di": {
-            "container": {
-            }
-        }
-    },
-    "worker:flair.app": {
-        "boot": {
-            "bootwares": [
-                "flair.boot.DIContainer"
             ]
         }
     },
@@ -76,29 +47,9 @@
                         { "name": "hashbang", "value": false },
                         { "name": "lang", "value": false },
                         { "name": "sensitive", "value": false }
-                    ],
-                    "interceptors": [
-                    ]
-                },
-                "after": {
-                    "settings": [
-                    ],
-                    "interceptors": [
                     ]
                 }
-            },
-            "main": {
-                "settings": [
-                ],
-                "interceptors": [
-                ]
             }
-        }
-    },
-
-    "flair.client.vue": {
-        "vue": {
-            "extensions": []
         }
     }
 }
