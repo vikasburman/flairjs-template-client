@@ -20,12 +20,12 @@ Class('', function() {
     };
 
     // $$('cache', 10000);
-    // $$('fetch', 'app-server', 'get-json', '/now/:format');
+    // $$('fetch', 'app-server', 'get-normal', 'json', '/now/:format?');
     // this.now = async (api, format = 'ms') => {
-    //     let apiArgs = {
+    //     let args = {
     //         format: format
     //     };
-    //     let result = await api(apiArgs);
+    //     let result = await api(args);
     //     return result || 'Could not connect to server.';
     // };
 });
